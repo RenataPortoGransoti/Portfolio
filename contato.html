@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Contato/title></title>
     <link href="style.css" rel="stylesheet">
+    <link href="contato-style.css" rel="stylesheet">
 
 </head>
 
@@ -34,6 +35,20 @@
         <p></p>
 
     </div>
+
+    <div class="container">
+        <form class="contact-form" action="https://formsubmit.co/renata.gransoti@edu.unifil.br" method="POST">
+            <label for="email">E-mail</label>
+            <input name="email" id="email" required>
+            <label for="name">Nome</label>
+            <input name="nome" id="name" required>
+            <label>Mensagem</label>
+            <input type="text" name="Escreva sua mensagem" id="message" required>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
 </body>
 
 <footer>
