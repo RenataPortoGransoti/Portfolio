@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Contato/title></title>
     <link href="styles/style.css" rel="stylesheet">
-    <link href="styles/contato-style.css rel=" stylesheet">
+    <link href="styles/contato-style.css" rel="stylesheet">
 
 </head>
 
@@ -29,25 +29,49 @@
         </nav>
     </header>
 
-    <div>
-        <a href="https://www.linkedin.com/in/renatagransoti/">LinkedIn</a>
-        <a href="https://github.com/RenataPortoGransoti">GitHub</a>
-        <p></p>
+
+    <div class="contact">
+
+        <a href="https://github.com/RenataPortoGransoti">
+            <img class="github" src="https://img.icons8.com/ios-glyphs/256/github.png">
+            <p>GitHub</p>
+        </a>
+
+
+        <a href="https://www.linkedin.com/in/renatagransoti/">
+            <img class="linkedin" src="https://img.icons8.com/ios-filled/256/linkedin-circled.png">
+            <p>
+                LinkedIn
+            </p>
+        </a>
 
     </div>
 
     <div class="container">
         <form class="contact-form" action="https://formsubmit.co/renata.gransoti@edu.unifil.br" method="POST">
+
+            <h2>Entre em contato...</h2>
+            <p>
+                <label for="name">Nome</label>
+                <input name="nome" id="name" required>
+            </p>
+
+
             <label for="email">E-mail</label>
             <input name="email" id="email" required>
-            <label for="name">Nome</label>
-            <input name="nome" id="name" required>
+
             <label>Mensagem</label>
-            <input type="text" name="Escreva sua mensagem" id="message" required>
+            <input class="msg" type="text" name="Escreva sua mensagem" id="message" required>
+
             <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+
             <button type="submit">Send</button>
+
         </form>
     </div>
+
+
+
 
 </body>
 

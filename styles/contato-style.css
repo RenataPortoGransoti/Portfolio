@@ -1,19 +1,81 @@
-.contact-form input {
-    width: 100%;
-    padding: 8px 0px;
-    margin: 8px 0px;
+header {
+    justify-content: end;
 }
 
-.contact-form input [type=text] {
+a {
+    font-size: 22px;
+    display: inline-block;
+    /*deixa os logos lado a lado*/
+}
+
+.contact {
+    margin-top: 60px;
+    text-align: center;
+    /*deixa as logos e texto no meio*/
+}
+
+.github {
+    width: 100px;
     height: 100px;
 }
 
+.linkedin {
+    width: 92px;
+    height: 92px;
+}
+
+.container {
+    padding: 45px;
+
+}
+
+
+
+label {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    text-indent: 37%;
+}
+
+#name {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.msg {
+    height: 100px;
+}
+
+.contact-form input {
+    display: block;
+    width: 500px;
+    padding: 8px 0px;
+    margin: 9px 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 
 button {
     background-color: white;
     border: none;
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
     border-radius: 7px;
     cursor: pointer;
+    font-size: large;
+    margin-top: 18px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 42px;
+    text-align: center;
 }
