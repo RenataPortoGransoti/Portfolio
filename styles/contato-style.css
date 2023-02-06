@@ -1,3 +1,7 @@
+body {
+    background-size: 100%;
+}
+
 header {
     justify-content: end;
 }
@@ -17,18 +21,14 @@ a {
 .github {
     width: 100px;
     height: 100px;
+    padding: 0px 50px;
 }
 
 .linkedin {
     width: 92px;
     height: 92px;
+    padding: 0px 50px;
 }
-
-.container {
-    padding: 45px;
-
-}
-
 
 
 label {
@@ -46,19 +46,28 @@ label {
 
 }
 
-.msg {
-    height: 100px;
-}
+
 
 .contact-form input {
     display: block;
     width: 500px;
-    padding: 8px 0px;
+    padding: 2px 0px;
     margin: 9px 0px;
     margin-left: auto;
     margin-right: auto;
 
 }
+
+#mensagem {
+    display: flex;
+    margin: auto;
+    resize: none;
+    -webkit-box-shadow: 1px 1px 1px #000000;
+    border-radius: 4px;
+    height: 125px;
+    width: 500px;
+}
+
 
 button {
     background-color: white;
@@ -78,4 +87,17 @@ button {
 h2 {
     font-size: 42px;
     text-align: center;
+    margin-top: 0%;
+}
+
+footer {
+    position: absolute;
+}
+
+input {
+    height: 25px;
+    border-radius: 4px;
+
+    -webkit-box-shadow: 1px 1px 1px #000000;
+
 }

@@ -1,33 +1,19 @@
 html {
-    background-color: rgb(0, 0, 0);
-
-    /*  text-size-adjust: 100%;    */
+    background: rgb(246,38,94);
+    background: linear-gradient(90deg, rgb(246, 38, 128) 0%, rgba(236,58,142,1) 50%, rgb(233, 112, 160) 100%);
 }
+
+
+/*  text-size-adjust: 100%;    */
+
 
 body {
 
     color: white;
-    background: linear-gradient(-45deg, #b81461, #d4397d, #e2498b, #f46ca7);
-    background-size: 300% 300%;
-    animation: gradient 15s ease both;
-    height: 100vh;
     margin: 0px;
 
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 25%;
-    }
-
-    50% {
-        background-position: 80% 40%;
-    }
-
-    100% {
-        background-position: 0% 20%;
-    }
-}
 
 nav {
     display: flex;
@@ -62,11 +48,12 @@ a {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
+    font-size: 22px;
 }
 
 footer {
     bottom: 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
     text-align: center;
 }

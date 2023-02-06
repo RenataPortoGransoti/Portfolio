@@ -1,0 +1,10 @@
+.lista {
+    list-style-type: square;
+    font-size: 22px;
+    margin-left: 80px;
+}
+
+
+.lista>li {
+    padding: 10px;
+}
