@@ -4,15 +4,44 @@ body {
     animation: gradient 20s ease both;
 }
 
-h1 {}
+.hello {
+    font-size: 550%;
+}
 
 .line {
     margin-top: 0%;
-    font-size: 350%;
-    width: 130px;
     border-right: 2px solid white;
     margin: 2% auto;
+    white-space: nowrap;
+    overflow: hidden;
 }
+
+
+.typing-animation {
+    animation: blinkCursor 500ms steps(20) infinite normal, typing 1s steps(20) 1s normal both;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 210px;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: white;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
 
 .box {
     background-color: rgba(0, 0, 0, 0.566);

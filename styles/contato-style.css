@@ -31,12 +31,14 @@ a {
 }
 
 
+.container {
+    width: 500px;
+    margin: auto;
+}
+
 label {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 22px;
-    text-indent: 37%;
+
 }
 
 #name {
