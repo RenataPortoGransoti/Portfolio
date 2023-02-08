@@ -90,9 +90,7 @@ h2 {
     margin-top: 0%;
 }
 
-footer {
-    position: absolute;
-}
+
 
 input {
     height: 25px;
@@ -100,4 +98,8 @@ input {
 
     -webkit-box-shadow: 1px 1px 1px #000000;
 
+}
+
+footer {
+    position: relative;
 }
