@@ -38,17 +38,13 @@ a {
 
 label {
     font-size: 22px;
-
 }
 
 #name {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
-
-
 
 .contact-form input {
     display: block;
@@ -92,14 +88,11 @@ h2 {
     margin-top: 0%;
 }
 
-
-
 input {
     height: 25px;
     border-radius: 4px;
-
     -webkit-box-shadow: 1px 1px 1px #000000;
-
+    box-shadow: 1px 1px 1px #000000;
 }
 
 footer {

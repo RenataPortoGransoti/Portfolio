@@ -16,7 +16,6 @@ body {
     overflow: hidden;
 }
 
-
 .typing-animation {
     animation: blinkCursor 500ms steps(20) infinite normal, typing 1s steps(20) 1s normal both;
 }
@@ -42,7 +41,6 @@ body {
     }
 }
 
-
 .box {
     background-color: rgba(0, 0, 0, 0.566);
     margin: 0% 5%;
@@ -52,24 +50,18 @@ body {
     height: auto;
 }
 
-
 .texto {
     padding: 3% 3% 3% 3%;
-
     font-size: 22px;
 }
-
 
 img {
     margin: 0%;
     padding: 0%;
-
     border-radius: 50%;
     max-width: 100%;
     position: relative;
-
 }
-
 
 .grid {
     display: grid;
@@ -84,7 +76,6 @@ img {
     position: relative;
     align-self: center;
     margin-left: 20%;
-
 }
 
 footer {
